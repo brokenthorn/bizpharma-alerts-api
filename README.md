@@ -1,6 +1,6 @@
 # bizpharma-alerts-api
 
-This is a Web API for an alerts system custom made for BizPharma databases.
+This is a Web API for an alerts system custom made for BizPharma databases. It sends alerts by email by default but other methods are being thought out for future implementation as well (for example Web Push).
 
 ## Env vars
 
