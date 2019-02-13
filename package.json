@@ -1,0 +1,43 @@
+{
+  "name": "bizpharma-alert-api",
+  "author": "Paul-Sebastian Manole <brokenthorn@gmail.com> (https://github.com/brokenthorn/)",
+  "description": "Web API for an alerts system custom made for BizPharma databases",
+  "license": "GPL-3.0",
+  "version": "0.0.1",
+  "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/brokenthorn/bizpharma-alert-api/issues"
+  },
+  "homepage": "https://github.com/brokenthorn/bizpharma-alert-api",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brokenthorn/bizpharma-alert-api.git"
+  },
+  "keywords": [
+    "bizpharma",
+    "rest",
+    "api",
+    "alerting",
+    "service"
+  ],
+  "scripts": {
+    "start": "node ./src/index.js",
+    "start-dev": "./node_modules/nodemon/bin/nodemon.js ./src/index.js",
+    "start-debug": "./node_modules/nodemon/bin/nodemon.js --inspect ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "boom": "^7.3.0",
+    "fastify": "^1.14.1",
+    "fastify-bearer-auth": "^3.0.1",
+    "fastify-compress": "^0.8.0",
+    "fastify-rate-limit": "^1.0.0",
+    "fastify-swagger": "^1.2.0",
+    "tedious": "^4.1.3",
+    "tedious-connection-pool": "^1.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9",
+    "eslint": "^5.13.0"
+  }
+}
